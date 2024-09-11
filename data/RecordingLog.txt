@@ -1,0 +1,435 @@
+[API Trapper      (5720:4d14)] Recording in 32-bit mode: C:\Program Files (x86)\OpenText\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (2474:4640)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2474:4640)] Load Network Traffic Analyzers:
+[Network Analyzer (2474:4640)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2474:4640)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2474:4640)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2474:4640)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2474:4640)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2474:4640)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2474:4640)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2474:4640)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (2474:4640)] Started proxy on port 8889 listening IP 192.168.68.41, 127.0.0.1, in synchronous mode
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64725
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64726
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64727
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64728
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64729
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64730
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64731
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64732
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64733
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64734
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64735
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64736
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64737
+[Proxy Recording.Error (2474:503c)] Exception is caught while trying to connect to https://clientservices.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:503c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:5a60)] Exception is caught while trying to connect to https://pets.shaft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:5a60)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64739
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64740
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64741
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64742
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64743
+[Proxy Recording.Error (2474:55d4)] Exception is caught while trying to connect to https://data.iana.org:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:55d4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474: 7f4)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474: 7f4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64745
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64746
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/ ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/ ...
+[Proxy Recording  (2474:52c4)] Received response of 131 header and 2973 body bytes from http://pets.shaft.com/
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/"   
+[Network Analyzer (2474:52c4)]   (Sid:  1) Client -> Server @ : 476 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  1) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  1) Server -> Client : 2973 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 2973 bytes to client @ 192.168.68.41:64746
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64748
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64749
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64750
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64751
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64752
+[Proxy Recording  (2474:52c4)] Received response of 259 header and 31000 body bytes from http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css"   
+[Network Analyzer (2474:52c4)]   (Sid:  2) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  2) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  2) Server -> Client : 31000 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 31000 bytes to client @ 192.168.68.41:64748
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/css/petclinic.css ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/css/petclinic.css ...
+[Proxy Recording  (2474:52c4)] Received response of 260 header and 215869 body bytes from http://pets.shaft.com/resources/css/petclinic.css
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/css/petclinic.css"   
+[Network Analyzer (2474:52c4)]   (Sid:  3) Client -> Server @ : 339 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  3) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  3) Server -> Client : 215869 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 215869 bytes to client @ 192.168.68.41:64749
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/spring-pivotal-logo.png ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/spring-pivotal-logo.png ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64753
+[Proxy Recording  (2474:52c4)] Received response of 259 header and 2818 body bytes from http://pets.shaft.com/resources/images/spring-pivotal-logo.png
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/images/spring-pivotal-logo.png"   
+[Network Analyzer (2474:52c4)]   (Sid:  4) Client -> Server @ : 398 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  4) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  4) Server -> Client : 2818 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 2818 bytes to client @ 192.168.68.41:64750
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/pets.png ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/pets.png ...
+[Proxy Recording  (2474:52c4)] Received response of 260 header and 67721 body bytes from http://pets.shaft.com/resources/images/pets.png
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/images/pets.png"   
+[Network Analyzer (2474:52c4)]   (Sid:  5) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  5) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  5) Server -> Client : 67721 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 67721 bytes to client @ 192.168.68.41:64751
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64754
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64755
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64756
+[Proxy Recording  (2474:52c4)] Received response of 273 header and 78129 body bytes from http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/webjars/bootstrap/5.1.3/dist/js/bootstrap.bundle.min.js"   
+[Network Analyzer (2474:52c4)]   (Sid:  6) Client -> Server @ : 352 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  6) Server -> Client : 288 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  6) Server -> Client : 78129 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 78129 bytes to client @ 192.168.68.41:64752
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/spring-logo-dataflow.png ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/spring-logo-dataflow.png ...
+[Proxy Recording  (2474:52c4)] Received response of 259 header and 6888 body bytes from http://pets.shaft.com/resources/images/spring-logo-dataflow.png
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/images/spring-logo-dataflow.png"   
+[Network Analyzer (2474:52c4)]   (Sid:  7) Client -> Server @ : 426 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  7) Server -> Client : 274 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  7) Server -> Client : 6888 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 6888 bytes to client @ 192.168.68.41:64753
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 ...
+[Proxy Recording  (2474:52c4)] Received response of 261 header and 77160 body bytes from http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/webjars/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"   
+[Network Analyzer (2474:52c4)]   (Sid:  8) Client -> Server @ : 445 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  8) Server -> Client : 276 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  8) Server -> Client : 77160 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 77160 bytes to client @ 192.168.68.41:64754
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/fonts/montserrat-webfont.woff ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/fonts/montserrat-webfont.woff ...
+[Proxy Recording  (2474:52c4)] Received response of 260 header and 24240 body bytes from http://pets.shaft.com/resources/fonts/montserrat-webfont.woff
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/fonts/montserrat-webfont.woff"   
+[Network Analyzer (2474:52c4)]   (Sid:  9) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  9) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid:  9) Server -> Client : 24240 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 24240 bytes to client @ 192.168.68.41:64755
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/fonts/varela_round-webfont.woff ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/fonts/varela_round-webfont.woff ...
+[Proxy Recording  (2474:52c4)] Received response of 260 header and 32712 body bytes from http://pets.shaft.com/resources/fonts/varela_round-webfont.woff
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/fonts/varela_round-webfont.woff"   
+[Network Analyzer (2474:52c4)]   (Sid: 10) Client -> Server @ : 396 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid: 10) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid: 10) Server -> Client : 32712 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 32712 bytes to client @ 192.168.68.41:64756
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64757
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/favicon.png ...
+[Proxy Recording  (2474:52c4)] Trying to connect to http://pets.shaft.com/resources/images/favicon.png ...
+[Proxy Recording  (2474:52c4)] Received response of 258 header and 528 body bytes from http://pets.shaft.com/resources/images/favicon.png
+[Web Request      (2474:52c4)] "GET http://pets.shaft.com/resources/images/favicon.png"   
+[Network Analyzer (2474:52c4)]   (Sid: 11) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid: 11) Server -> Client : 273 bytes  (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid: 11) Server -> Client : 528 bytes  (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 528 bytes to client @ 192.168.68.41:64757
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64760
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64761
+[Proxy Recording  (2474:37f4)] Trying to connect to https://onedriveclucproddm20002.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-16-20-6341?sv=2014-02-14&sr=b&sig=Ldr1LTfBM8BCDiueOfPoYeC89t5Ut%2BtpADmiXq9k5ss%3D&st=2024-09-10T21%3A16%3A20Z&se=2024-09-11T08%3A16%3A20Z&sp=w ...
+[Proxy Recording.Error (2474:4840)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:4840)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:383c)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:383c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:26e4)] Exception is caught while trying to connect to https://clientservices.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:3648)] Exception is caught while trying to connect to https://data.iana.org:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:3648)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:2e64)] Exception is caught while trying to connect to https://accounts.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:503c)] Exception is caught while trying to connect to https://update.googleapis.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:3d60)] Exception is caught while trying to connect to https://clients2.google.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:26e4)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:2e64)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:503c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (2474:3d60)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Received response of 400 header and 11 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474: 7f4)] Sent 11 bytes to client @ 192.168.68.41:64745
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64774
+[Proxy Recording  (2474:52c4)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (2474:37f4)] Trying to connect to https://onedriveclucproddm20002.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-16-20-6341?sv=2014-02-14&sr=b&sig=Ldr1LTfBM8BCDiueOfPoYeC89t5Ut%2BtpADmiXq9k5ss%3D&st=2024-09-10T21%3A16%3A20Z&se=2024-09-11T08%3A16%3A20Z&sp=w ...
+[Proxy Recording  (2474:52c4)] Trying to connect to https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (2474:52c4)] Received response of 370 header and 2685 body bytes from https://optimizationguide-pa.googleapis.com:443/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Network Analyzer (2474:52c4)]   (Sid: 12) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:52c4)] "POST https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (2474:52c4)]   (Sid: 12) Client -> Server @ : 1148 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid: 12) Server -> Client : 359 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:52c4)]   (Sid: 12) Server -> Client : 2685 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:52c4)] Sent 2685 bytes to client @ 192.168.68.41:64760
+[Proxy Recording  (2474:5728)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (2474:5728)] Trying to connect to https://www.googleapis.com:443/oauth2/v4/token ...
+[Proxy Recording  (2474:5728)] Received response of 466 header and 399 body bytes from https://www.googleapis.com:443/oauth2/v4/token
+[Network Analyzer (2474:5728)]   (Sid: 13) Client -> Server @ : 458 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:5728)] "POST https://www.googleapis.com/oauth2/v4/token"   
+[Network Analyzer (2474:5728)]   (Sid: 13) Client -> Server @ : 279 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:5728)]   (Sid: 13) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:5728)]   (Sid: 13) Server -> Client : 399 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:5728)] Sent 399 bytes to client @ 192.168.68.41:64761
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64781
+[Proxy Recording  (2474:3648)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3648)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:1274)] Trying to connect to https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt ...
+[Proxy Recording  (2474:1274)] Trying to connect to https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt ...
+[Proxy Recording  (2474:3648)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:3648)] Sent 9 bytes to client @ 192.168.68.41:64774
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64783
+[Proxy Recording  (2474:3820)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:m1Dtguv_dsj0bi6SKP8eintzKiAySpqK8vB6rsAYr7o&cup2hreq=43973c8ce53e1bf0c0b706d04fa5c72e6886ad79d7b402cb00f111a62498ab91 ...
+[Proxy Recording  (2474:5a60)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (2474: e4c)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D1&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1 ...
+[Proxy Recording  (2474:5a60)] Trying to connect to https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128 ...
+[Proxy Recording  (2474: e4c)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D1&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1 ...
+[Proxy Recording  (2474:55d4)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (2474:3820)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:m1Dtguv_dsj0bi6SKP8eintzKiAySpqK8vB6rsAYr7o&cup2hreq=43973c8ce53e1bf0c0b706d04fa5c72e6886ad79d7b402cb00f111a62498ab91 ...
+[Proxy Recording  (2474:55d4)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (2474:37f4)] Received response of 305 header and 0 body bytes from https://onedriveclucproddm20002.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-16-20-6341?sv=2014-02-14&sr=b&sig=Ldr1LTfBM8BCDiueOfPoYeC89t5Ut%2BtpADmiXq9k5ss%3D&st=2024-09-10T21%3A16%3A20Z&se=2024-09-11T08%3A16%3A20Z&sp=w
+[Proxy Recording  (2474:37f4)] Sent 0 bytes to client @ 192.168.68.41:64729
+[Proxy Recording  (2474:3820)] Received response of 1131 header and 425 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:m1Dtguv_dsj0bi6SKP8eintzKiAySpqK8vB6rsAYr7o&cup2hreq=43973c8ce53e1bf0c0b706d04fa5c72e6886ad79d7b402cb00f111a62498ab91
+[Proxy Recording  (2474: e4c)] Received response of 675 header and 361 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D1&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1
+[Proxy Recording  (2474:1274)] Received response of 550 header and 4924 body bytes from https://data.iana.org:443/TLD/tlds-alpha-by-domain.txt
+[Proxy Recording  (2474:5a60)] Received response of 556 header and 0 body bytes from https://clientservices.googleapis.com:443/chrome-variations/seed?osname=win&channel=stable&milestone=128
+[Network Analyzer (2474:3820)]   (Sid: 14) Client -> Server @ : 1016 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:3820)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:m1Dtguv_dsj0bi6SKP8eintzKiAySpqK8vB6rsAYr7o&cup2hreq=43973c8ce53e1bf0c0b706d04fa5c72e6886ad79d7b402cb00f111a62498ab91"   
+[Network Analyzer (2474:3820)]   (Sid: 14) Client -> Server @ : 3774 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:3820)]   (Sid: 14) Server -> Client : 1120 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:3820)]   (Sid: 14) Server -> Client : 425 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:3820)] Sent 425 bytes to client @ 192.168.68.41:64743
+[Web Request      (2474: e4c)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=128.0.6613.121&lang=en-US&acceptformat=crx3,puff&x=id%3Dglmfdkfmoamfkgkncklicdngnfabhaim%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1&x=id%3Dhemlmgggokggmncimchkllhcjcaimcle%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D1%2526e%253D1&x=id%3Djbldcomffojmkkjbblhcebeicbncmjpf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1%2526dr%253D512&x=id%3Dodlnghcomkeenpeblhddfpacdncfjmna%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DCHBF%26ping%3Dr%253D10%2526e%253D0%2526dr%253D1"   
+[Proxy Recording  (2474:55d4)] Received response of 2928 header and 317 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (2474: e4c)]   (Sid: 15) Client -> Server @ : 1335 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474: e4c)]   (Sid: 15) Server -> Client : 664 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474: e4c)]   (Sid: 15) Server -> Client : 361 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474: e4c)] Sent 361 bytes to client @ 192.168.68.41:64742
+[Web Request      (2474:1274)] "GET https://data.iana.org/TLD/tlds-alpha-by-domain.txt"   
+[Network Analyzer (2474:1274)]   (Sid: 16) Client -> Server @ : 495 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:1274)]   (Sid: 16) Server -> Client : 567 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:1274)]   (Sid: 16) Server -> Client : 4924 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:1274)] Sent 4924 bytes to client @ 192.168.68.41:64740
+[Web Request      (2474:5a60)] "GET https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=128"   
+[Network Analyzer (2474:5a60)]   (Sid: 17) Client -> Server @ : 508 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:5a60)]   (Sid: 17) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:5a60)] Sent 0 bytes to client @ 192.168.68.41:64739
+[Network Analyzer (2474:55d4)]   (Sid: 18) Client -> Server @ : 4172 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:55d4)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (2474:55d4)]   (Sid: 18) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:55d4)]   (Sid: 18) Server -> Client : 2917 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:55d4)]   (Sid: 18) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:55d4)] Sent 317 bytes to client @ 192.168.68.41:64741
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64790
+[Proxy Recording.Error (2474:3648)] Exception is caught while trying to connect to https://config.edge.skype.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (2474:3648)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Received response of 399 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (2474: 7f4)] Sent 9 bytes to client @ 192.168.68.41:64783
+[Proxy Recording  (2474:5ae4)] Received response of 591 header and 948 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D
+[Network Analyzer (2474:5ae4)]   (Sid: 19) Client -> Server @ : 1084 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:5ae4)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D"   
+[Network Analyzer (2474:5ae4)]   (Sid: 19) Client -> Server @ : 1047 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 19) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 19) Server -> Client : 948 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:5ae4)] Sent 948 bytes to client @ 192.168.68.41:64781
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64797
+[Proxy Recording.Error (2474:26f0)] Exception is caught while connecting to , message=Index was outside the bounds of the array.
+[Proxy Recording  (2474:383c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (2474:383c)] Trying to connect to https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D ...
+[Proxy Recording  (2474:383c)] Received response of 591 header and 315 body bytes from https://clients4.google.com:443/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D
+[Network Analyzer (2474:383c)]   (Sid: 20) Client -> Server @ : 1060 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:383c)] "POST https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=K%2Fu%2BtUqeoG%2BAdjJVCoSrLA%3D%3D"   
+[Network Analyzer (2474:383c)]   (Sid: 20) Client -> Server @ : 1799 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:383c)]   (Sid: 20) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:383c)]   (Sid: 20) Server -> Client : 315 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:383c)] Sent 315 bytes to client @ 192.168.68.41:64797
+[User action                 ] StartTransactionEvent FindOwner [Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64802
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64805
+[Proxy Recording  (2474:3648)] Trying to connect to http://pets.shaft.com/owners/find ...
+[Proxy Recording  (2474:3648)] Trying to connect to http://pets.shaft.com/owners/find ...
+[Proxy Recording  (2474:3648)] Received response of 131 header and 3539 body bytes from http://pets.shaft.com/owners/find
+[Web Request      (2474:3648)] "GET http://pets.shaft.com/owners/find"   
+[Network Analyzer (2474:3648)]   (Sid: 21) Client -> Server @ : 470 bytes (Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 21) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 21) Server -> Client : 3539 bytes  (Service=HTTP)
+[Proxy Recording  (2474:3648)] Sent 3539 bytes to client @ 192.168.68.41:64805
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64807
+[Proxy Recording  (2474:26f0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto ...
+[Proxy Recording  (2474:26f0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto ...
+[Proxy Recording  (2474:26f0)] Received response of 416 header and 36 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto
+[Web Request      (2474:26f0)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESGQmZm7YW2A-3bxIFDU-eJ_ghu6ECwUhUlhA=?alt=proto"   
+[Network Analyzer (2474:26f0)]   (Sid: 22) Client -> Server @ : 576 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:26f0)]   (Sid: 22) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:26f0)]   (Sid: 22) Server -> Client : 36 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:26f0)] Sent 36 bytes to client @ 192.168.68.41:64807
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Received response of 399 header and 10 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474: 7f4)] Sent 10 bytes to client @ 192.168.68.41:64802
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64810
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64812
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64814
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:Ejw0z93WySTX9OIJw4KYZ67-HIWUYI-szPw606dp-V4&cup2hreq=1bcbc471c2eaa15740967dbdd1b588bfcc996e3556da4d55870ae2a177780465 ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://update.googleapis.com:443/service/update2/json?cup2key=14:Ejw0z93WySTX9OIJw4KYZ67-HIWUYI-szPw606dp-V4&cup2hreq=1bcbc471c2eaa15740967dbdd1b588bfcc996e3556da4d55870ae2a177780465 ...
+[Proxy Recording  (2474: 7f4)] Received response of 1131 header and 962 body bytes from https://update.googleapis.com:443/service/update2/json?cup2key=14:Ejw0z93WySTX9OIJw4KYZ67-HIWUYI-szPw606dp-V4&cup2hreq=1bcbc471c2eaa15740967dbdd1b588bfcc996e3556da4d55870ae2a177780465
+[Web Request      (2474: 7f4)] "POST https://update.googleapis.com/service/update2/json?cup2key=14:Ejw0z93WySTX9OIJw4KYZ67-HIWUYI-szPw606dp-V4&cup2hreq=1bcbc471c2eaa15740967dbdd1b588bfcc996e3556da4d55870ae2a177780465"
+[Network Analyzer (2474: 7f4)]   (Sid: 23) Client -> Server @ : 1373 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474: 7f4)]   (Sid: 23) Client -> Server @ : 8865 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474: 7f4)]   (Sid: 23) Server -> Client : 1120 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474: 7f4)]   (Sid: 23) Server -> Client : 962 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474: 7f4)] Sent 962 bytes to client @ 192.168.68.41:64814
+[Proxy Recording  (2474:383c)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:383c)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:383c)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:383c)] Sent 9 bytes to client @ 192.168.68.41:64810
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64817
+[User action                 ] EndTransactionEvent FindOwner [Proxy Recording  (2474:5ae4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:5ae4)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:5ae4)] Sent 9 bytes to client @ 192.168.68.41:64817
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64820
+[Proxy Recording  (2474:3648)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474:3648)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474:3648)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Network Analyzer (2474:3648)]   (Sid: 24) Client -> Server @ : 595 bytes (SSL)(Service=HTTP)
+[Web Request      (2474:3648)] "POST https://clientservices.googleapis.com/uma/v2"   
+[Network Analyzer (2474:3648)]   (Sid: 24) Client -> Server @ : 2858 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 24) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 24) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:3648)] Sent 22 bytes to client @ 192.168.68.41:64812
+[Proxy Recording  (2474:26f0)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:26f0)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:26f0)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:26f0)] Sent 9 bytes to client @ 192.168.68.41:64820
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64823
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474: 7f4)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (2474: 7f4)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (2474: 7f4)]   (Sid: 25) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474: 7f4)]   (Sid: 25) Client -> Server @ : 43411 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474: 7f4)]   (Sid: 25) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474: 7f4)]   (Sid: 25) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474: 7f4)] Sent 22 bytes to client @ 192.168.68.41:64823
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64825
+[Proxy Recording.Error (2474:5ae4)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64826
+[Proxy Recording  (2474:3648)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474:3648)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474:3648)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (2474:3648)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (2474:3648)]   (Sid: 26) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 26) Client -> Server @ : 18648 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 26) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:3648)]   (Sid: 26) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:3648)] Sent 22 bytes to client @ 192.168.68.41:64826
+[User action                 ] StartTransactionEvent AddOwner [Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64829
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64831
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64833
+[Proxy Recording  (2474:383c)] Trying to connect to http://pets.shaft.com/owners/new ...
+[Proxy Recording  (2474:383c)] Trying to connect to http://pets.shaft.com/owners/new ...
+[Proxy Recording  (2474:383c)] Received response of 131 header and 5290 body bytes from http://pets.shaft.com/owners/new
+[Proxy Recording  (2474:26f0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Proxy Recording  (2474:26f0)] Trying to connect to https://clientservices.googleapis.com:443/uma/v2 ...
+[Web Request      (2474:383c)] "GET http://pets.shaft.com/owners/new"   
+[Network Analyzer (2474:383c)]   (Sid: 27) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (2474:383c)]   (Sid: 27) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (2474:383c)]   (Sid: 27) Server -> Client : 5290 bytes  (Service=HTTP)
+[Proxy Recording  (2474:383c)] Sent 5290 bytes to client @ 192.168.68.41:64833
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64835
+[Proxy Recording  (2474:26f0)] Received response of 299 header and 22 body bytes from https://clientservices.googleapis.com:443/uma/v2
+[Web Request      (2474:26f0)] "POST https://clientservices.googleapis.com/uma/v2"
+[Network Analyzer (2474:26f0)]   (Sid: 28) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:26f0)]   (Sid: 28) Client -> Server @ : 36728 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:26f0)]   (Sid: 28) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:26f0)]   (Sid: 28) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:26f0)] Sent 22 bytes to client @ 192.168.68.41:64829
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESNQkAfvv7RHtQkBIFDWtomm4SBQ1Pnif4EgUNlNRbHhIFDUZnFX0SBQ3k5RXmIWSWApp8r9-5?alt=proto ...
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESNQkAfvv7RHtQkBIFDWtomm4SBQ1Pnif4EgUNlNRbHhIFDUZnFX0SBQ3k5RXmIWSWApp8r9-5?alt=proto ...
+[Proxy Recording  (2474:5ae4)] Received response of 416 header and 67 body bytes from https://content-autofill.googleapis.com:443/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESNQkAfvv7RHtQkBIFDWtomm4SBQ1Pnif4EgUNlNRbHhIFDUZnFX0SBQ3k5RXmIWSWApp8r9-5?alt=proto
+[Web Request      (2474:5ae4)] "GET https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTI4LjAuNjYxMy4xMjESNQkAfvv7RHtQkBIFDWtomm4SBQ1Pnif4EgUNlNRbHhIFDUZnFX0SBQ3k5RXmIWSWApp8r9-5?alt=proto"   
+[Network Analyzer (2474:5ae4)]   (Sid: 29) Client -> Server @ : 588 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 29) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 29) Server -> Client : 67 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:5ae4)] Sent 67 bytes to client @ 192.168.68.41:64835
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474: 7f4)] Sent 9 bytes to client @ 192.168.68.41:64831
+[User action                 ] EndTransactionEvent AddOwner [Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64840
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64843
+[Proxy Recording  (2474:3648)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3648)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3648)] Received response of 399 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:3648)] Sent 9 bytes to client @ 192.168.68.41:64840
+[Proxy Recording  (2474:26f0)] Trying to connect to https://onedriveclucproddm20002.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-17-59-5065?sv=2014-02-14&sr=b&sig=iL5WawrdAKTAXK89A3loFhRVREJbhOTGi0vU9v4GJzs%3D&st=2024-09-10T21%3A17%3A59Z&se=2024-09-11T08%3A17%3A59Z&sp=w ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64848
+[User action                 ] StartTransactionEvent Give_Details [Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64853
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording.Error (2474:5ae4)] Exception is caught while connecting to , message=The output char buffer is too small to contain the decoded characters, encoding 'Unicode (UTF-8)' fallback 'System.Text.DecoderReplacementFallback'.
+Parameter name: chars
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64856
+[Proxy Recording  (2474: 7f4)] Received response of 400 header and 10 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474: 7f4)] Sent 10 bytes to client @ 192.168.68.41:64848
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64860
+[Proxy Recording  (2474:3648)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3648)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64865
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64869
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTI4LjAuNjYxMy4xMjEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDSzBgaAhgEo84Q0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQq4sPGgIYBMKsOkIiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABENWCDxoCGATVhf3xIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDwygcaAhgEHmh2sCIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQtzoaAhgE6wuqTyIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQxMoDGgIYBKQvFbsiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgEadCIlyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGATlYphQIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDZFhoCGAT8Q1lCIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDWqgIaAhgEftgutyIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQt9EPGgIYBGdBSXsiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEKInGgIYBOTnN4YiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (2474:5ae4)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTI4LjAuNjYxMy4xMjEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDSzBgaAhgEo84Q0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQq4sPGgIYBMKsOkIiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABENWCDxoCGATVhf3xIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDwygcaAhgEHmh2sCIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQtzoaAhgE6wuqTyIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQxMoDGgIYBKQvFbsiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgEadCIlyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGATlYphQIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDZFhoCGAT8Q1lCIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDWqgIaAhgEftgutyIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQt9EPGgIYBGdBSXsiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEKInGgIYBOTnN4YiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw ...
+[Proxy Recording  (2474:5ae4)] Received response of 341 header and 1125 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTI4LjAuNjYxMy4xMjEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDSzBgaAhgEo84Q0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQq4sPGgIYBMKsOkIiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABENWCDxoCGATVhf3xIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDwygcaAhgEHmh2sCIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQtzoaAhgE6wuqTyIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQxMoDGgIYBKQvFbsiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgEadCIlyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGATlYphQIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDZFhoCGAT8Q1lCIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDWqgIaAhgEftgutyIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQt9EPGgIYBGdBSXsiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEKInGgIYBOTnN4YiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[Web Request      (2474:5ae4)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTI4LjAuNjYxMy4xMjEaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDSzBgaAhgEo84Q0CIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQq4sPGgIYBMKsOkIiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABENWCDxoCGATVhf3xIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDwygcaAhgEHmh2sCIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQtzoaAhgE6wuqTyIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQxMoDGgIYBKQvFbsiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgEadCIlyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGATlYphQIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDZFhoCGAT8Q1lCIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARDWqgIaAhgEftgutyIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQt9EPGgIYBGdBSXsiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEKInGgIYBOTnN4YiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (2474:5ae4)]   (Sid: 30) Client -> Server @ : 1206 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 30) Server -> Client : 358 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 30) Server -> Client : 1125 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (2474:5ae4)] Sent 1125 bytes to client @ 192.168.68.41:64865
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64874
+[Proxy Recording  (2474:5ae4)] Trying to connect to http://pets.shaft.com/owners/new ...
+[Proxy Recording  (2474:5ae4)] Trying to connect to http://pets.shaft.com/owners/new ...
+[Proxy Recording  (2474:5ae4)] Received response of 131 header and 5500 body bytes from http://pets.shaft.com/owners/new
+[Network Analyzer (2474:5ae4)]   (Sid: 31) Client -> Server @ : 606 bytes (Service=HTTP)
+[Web Request      (2474:5ae4)] "POST http://pets.shaft.com/owners/new"   
+[Network Analyzer (2474:5ae4)]   (Sid: 31) Client -> Server @ : 79 bytes (Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 31) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 31) Server -> Client : 5500 bytes  (Service=HTTP)
+[Proxy Recording  (2474:5ae4)] Sent 5500 bytes to client @ 192.168.68.41:64874
+[Proxy Recording  (2474:25e4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64877
+[Proxy Recording  (2474:5ae4)] Trying to connect to http://pets.shaft.com/owners/new ...
+[Proxy Recording  (2474:5ae4)] Trying to connect to http://pets.shaft.com/owners/new ...
+[Proxy Recording  (2474:5ae4)] Received response of 109 header and 0 body bytes from http://pets.shaft.com/owners/new
+[Network Analyzer (2474:5ae4)]   (Sid: 32) Client -> Server @ : 606 bytes (Service=HTTP)
+[Web Request      (2474:5ae4)] "POST http://pets.shaft.com/owners/new"   
+[Network Analyzer (2474:5ae4)]   (Sid: 32) Client -> Server @ : 77 bytes (Service=HTTP)
+[Network Analyzer (2474:5ae4)]   (Sid: 32) Server -> Client : 124 bytes  (Service=HTTP)
+[Proxy Recording  (2474:5ae4)] Sent 0 bytes to client @ 192.168.68.41:64877
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64878
+[Proxy Recording  (2474:39f4)] Trying to connect to http://pets.shaft.com/owners/475420 ...
+[Proxy Recording  (2474:39f4)] Trying to connect to http://pets.shaft.com/owners/475420 ...
+[Proxy Recording  (2474:39f4)] Received response of 131 header and 3513 body bytes from http://pets.shaft.com/owners/475420
+[Web Request      (2474:39f4)] "GET http://pets.shaft.com/owners/475420"   
+[Network Analyzer (2474:39f4)]   (Sid: 33) Client -> Server @ : 508 bytes (Service=HTTP)
+[Network Analyzer (2474:39f4)]   (Sid: 33) Server -> Client : 118 bytes  (Service=HTTP)
+[Network Analyzer (2474:39f4)]   (Sid: 33) Server -> Client : 3513 bytes  (Service=HTTP)
+[Proxy Recording  (2474:39f4)] Sent 3513 bytes to client @ 192.168.68.41:64878
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64880
+[User action                 ] EndTransactionEvent Give_Details [Proxy Recording  (2474: 7f4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:3660)] Client request from @ 192.168.68.41:64886
+[Proxy Recording  (2474:26f0)] Trying to connect to https://onedriveclucproddm20002.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-17-59-5065?sv=2014-02-14&sr=b&sig=iL5WawrdAKTAXK89A3loFhRVREJbhOTGi0vU9v4GJzs%3D&st=2024-09-10T21%3A17%3A59Z&se=2024-09-11T08%3A17%3A59Z&sp=w ...
+[Proxy Recording  (2474:3648)] Received response of 399 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (2474:3ed4)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (2474:26f0)] Received response of 305 header and 0 body bytes from https://onedriveclucproddm20002.blob.core.windows.net:443/2024-09-11/9017008775745105211-91c0d23d-22b3-e650-ad47-0eec20f15409-2024-09-11-07-17-59-5065?sv=2014-02-14&sr=b&sig=iL5WawrdAKTAXK89A3loFhRVREJbhOTGi0vU9v4GJzs%3D&st=2024-09-10T21%3A17%3A59Z&se=2024-09-11T08%3A17%3A59Z&sp=w
